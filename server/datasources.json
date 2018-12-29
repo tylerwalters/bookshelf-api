@@ -1,0 +1,12 @@
+{
+  "MongoDB": {
+    "host": "mongodb",
+    "port": 27017,
+    "url": "",
+    "database": "bookshelf",
+    "password": process.env.DB_PASSWORD,
+    "name": "MongoDB",
+    "user": "bookshelf",
+    "connector": "mongodb"
+  }
+}
